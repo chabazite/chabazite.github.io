@@ -4,7 +4,7 @@
 
 This was created to visualize the work Andrew has done over the last few years.
 
-###Project Directory
+### Project Directory
 - [Analysis of Condition Factor and Aggression](https://chabazite.github.io/Aggression_Condition_Analysis)
 - [Gape Measurements](url)
 - [Mysis vs Dry Feed](url)
