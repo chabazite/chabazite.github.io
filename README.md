@@ -11,5 +11,5 @@ This was created to visualize the work Andrew has done over the last few years.
 - [Water Borne Cortisol Correlation](url)
 
 ### Python Project Directory
-- [Rotifer Classification Model] (url)
-- [Kaggle House Price Prediction Model] (url)
+- [Rotifer Classification Model](url)
+- [Kaggle House Price Prediction Model](url)
