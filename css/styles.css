@@ -166,12 +166,12 @@ nav ul li {
     padding: 1rem;
 }
 
-.project-container p{
+.project-container p {
     padding: 0.4rem;
 
 }
 
-.project-title{
+.project-title {
     margin-bottom: var(--bottom-margin);
     
 }
@@ -183,7 +183,7 @@ nav ul li {
 .project-card {
     background-color: #fff;
     border-radius: 11px;
-    box-shadow: 0 3px 10pz var(--primary-shadow);
-    padding: 20 px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
     margin: 10px;
 }
