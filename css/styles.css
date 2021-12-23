@@ -138,9 +138,9 @@ nav ul li {
     padding: 0.4rem;
 }
 
-.projects{
+.projects {
     background-color: var(--bg-color);
-    padding: 32px o;
+    padding: 32px 0;
     margin-top: 2rem;
 }
 
