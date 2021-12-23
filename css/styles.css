@@ -77,7 +77,7 @@ nav a:hover {
 
 nav ul {
     display: flex;
-    gap 1.9rem;
+    gap: 1.9rem;
 }
 
 nav ul li {
