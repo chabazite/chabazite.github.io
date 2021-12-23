@@ -103,8 +103,8 @@ nav ul li {
 }
 
 .hero img {
-    height: 242px;
-    width: 158px;
+    height: 158px;
+    width: 242px;
 }
 
 
@@ -138,3 +138,52 @@ nav ul li {
     padding: 0.4rem;
 }
 
+.projects{
+    background-color: var(--bg-color);
+    padding: 32px o;
+    margin-top: 2rem;
+}
+
+.project-pic {
+    width: 65%;
+    height: 60%
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.project-container {
+    text-align: center;
+    width:21.875rem;
+    padding: 1rem;
+}
+
+.project-container p{
+    padding: 0.4rem;
+
+}
+
+.project-title{
+    margin-bottom: var(--bottom-margin);
+    
+}
+
+.project-details {
+    margin-bottom:: var(--bottom-margin);
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10pz var(--primary-shadow);
+    padding: 20 px;
+    margin: 10px;
+}
