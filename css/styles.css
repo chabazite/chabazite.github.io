@@ -47,6 +47,21 @@ body {
     font-family: var(--font-family);
 }
 
+.sidebar {
+    height:100%;
+    width:25%;
+    position: fixed;
+    z-index:2;
+    top:0;
+    left:0;
+    overflow-x:hidden;
+    padding-top:1rem;
+
+}
+
+.main {
+    width:75%;
+}
 /*Styling Navbar using Flexbox */
 nav {
     position: sticky;
@@ -177,7 +192,7 @@ nav ul li {
 }
 
 .project-details {
-    margin-bottom:: var(--bottom-margin);
+    margin-bottom: var(--bottom-margin);
 }
 
 .project-card {
