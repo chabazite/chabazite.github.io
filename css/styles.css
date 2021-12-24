@@ -107,7 +107,7 @@ nav {
 nav h1 {
     color: var(--primary-color);
 }
-nav h4 {
+.homebox h4 {
     color:rgb(143, 120, 165);
     font-style: italic;
     text-align: left;
