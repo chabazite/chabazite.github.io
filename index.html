@@ -14,12 +14,15 @@
 
 <!--Navbar -->
 <nav>
-    <h1> Andrew's GitHub Page</h1>
+    <div class="home-box" id="homebox">
+    <h1> <a href="/index.html" class="nav-link">Andrew Ingalls</a></h1>
+    <h4>Data Scientist</h4>
+    </div>
     <ul class="navigation">
-         <li> <a href="#htmlabout.html" class="nav-link"> About</a> </li>
-         <li> <a href="#html/projects.html" class="nav-link"> Projects</a> </li>
+         <li> <a href="html/about.html" class="nav-link"> About</a> </li>
+         <li> <a href="html/projects.html" class="nav-link"> Projects</a> </li>
          <li> <a href="html/publications.html" class="nav-link"> Publications</a> </li>
-         <li> <a href="#html.contact.html" class="nav-link"> Contact</a> </li>
+         <li> <a href="html/contact.html" class="nav-link"> Contact</a> </li>
     </ul>
     <button class="burger-menu" id="burger-menu">
         <ion-icon class="bars" name="menu-outline"></ion-icon>
@@ -80,13 +83,13 @@
         nesciunt excepturi quos obcaecati incidunt 
         </p>
     </section>
-<!--Skills Section -->
+
 
 <!--Project Section -->
     <section class="projects" id="projects">
      <h2 class="projects-title"> Recent Projects Highlights </h2>
-     <div class="project-container">
-        <div class="project-container project-card">
+        <div class="project-container">
+            <div class="project-container project-card">
         <img
             src="images/testing.jpg"
             alt="Gape"
@@ -99,8 +102,8 @@
         nesciunt excepturi quos obcaecati 
             </p>
             <a href="html/gape_meas.html" target="_blank" class="project-line"> Check it Out </a>
-        </div>
-        <div class="project-container project-card">
+            </div>
+            <div class="project-container project-card">
          <img
              src="images/testing.jpg"
              alt="Unitronix"
@@ -113,8 +116,8 @@
          nesciunt excepturi quos obcaecati 
              </p>
              <a href="html/unitronix.html" target="_blank" class="project-line"> Check it Out </a>
-         </div>
-         <div class="project-container project-card">
+            </div>
+            <div class="project-container project-card">
           <img
               src="images/testing.jpg"
               alt="Rotifer"
@@ -127,12 +130,29 @@
           nesciunt excepturi quos obcaecati 
               </p>
               <a href="html/rotifer.html" target="_blank" class="project-line"> Check it Out </a>
-          </div>
+             </div>
         </div>
     </section>
-<!--Contact Section -->
 
-<!--Social Accounts - Fixed to the right -->
+<!--Certifiction Section -->
+    <section class ="certification" id= "certification">
+     <h2 class="certification-title"> Relevant Certifications</h2>
+    <div class="cert-container">
+        <div class="cert-container cert-card">
+            <img
+                src="images/R_Prpogramming_Cert.jpg"
+                alt="R Programming"
+                loading="lazy"
+                class="cert-pic"
+                />
+                <h3 class="cert-title">R Programming A-Z: R For Data Science</h3>
+                <a href = "https://www.udemy.com/course/r-programming/" target="_blank" class="cert-line"> 
+                    Check it Out</a>
+           </div>
+           
+    </div>
+    </section>
+<!--Contact Section -->
 
 <!--Scroll to Top -->
 
