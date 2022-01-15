@@ -8,6 +8,7 @@
     
     <!--CS STYLE-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -18,12 +19,6 @@
 <!--Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
-     <a href="#" class="navbar-brand"> 
-         <img 
-        src="images/headshot.jpg" 
-        title="Headshot" 
-        alt= "Andrew's headshot"
-    /></a>
      <a href="#" class="navbar-brand"><h1>Andrew Ingalls</h1>
       <h4>Data Scientist</h4></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +27,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="html/about.html">About</a>
@@ -86,86 +81,23 @@
                 </button>
             </div>
         <!--Start content for the machine learning video-->
-            <div class="col-md-6 intros">
+            <div class="col-md-6 intros text-end">
                 <div class="class video-box">
-                    <img src="images/Coding_Monochromatic.png" alt="video illustration">
+                    <img src="images\Coding _Monochromatic.png" alt="video illustration" class="img-fluid">
+                    <a href="#" class="position-absolute top-50 start-50 translate-middle">
+                        <span>
+                            <i class="fas fa-play-circle"></i>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-
-    <!--More about -->
-    <section class="more-about">
-     <h2> More About Me</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-        autem deleniti cupiditate molestias quis unde quae totam porro dicta
-        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt 
-        </p>
-    </section>
-
+<!--Visualization Section-->
 
 <!--Project Section -->
-    <section class="projects" id="projects">
-     <h2 class="projects-title"> Recent Projects Highlights </h2>
-        <div class="project-container">
-            <div class="project-container project-card">
-        <img
-            src="images/testing.jpg"
-            alt="Gape"
-            loading="lazy"
-            class="project-pic"
-            />
-            <h3 class="project-title">Gape Measurements</h3>
-            <p class="project-details">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati 
-            </p>
-            <a href="html/gape_meas.html" target="_blank" class="project-line"> Check it Out </a>
-            </div>
-            <div class="project-container project-card">
-         <img
-             src="images/testing.jpg"
-             alt="Unitronix"
-             loading="lazy"
-             class="project-pic"
-             />
-             <h3 class="project-title">Unitronix Database Management</h3>
-             <p class="project-details">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-         nesciunt excepturi quos obcaecati 
-             </p>
-             <a href="html/unitronix.html" target="_blank" class="project-line"> Check it Out </a>
-            </div>
-            <div class="project-container project-card">
-          <img
-              src="images/testing.jpg"
-              alt="Rotifer"
-              loading="lazy"
-              class="project-pic"
-              style="max-width:100%;height:auto;"
-              />
-              <h3 class="project-title">Rotifer Classification Model</h3>
-              <p class="project-details">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nesciunt excepturi quos obcaecati 
-              </p>
-              <a href="html/rotifer.html" target="_blank" class="project-line"> Check it Out </a>
-             </div>
-        </div>
-    </section>
-
+   
 <!--Certifiction Section -->
     <section class ="certification" id= "certification">
      <h2 class="certification-title"> Relevant Certifications</h2>
@@ -220,5 +152,6 @@
 </div>
 
     <script src="/assets/js/bootstrap.bundle.js"></script>
+
 </body>
  </html>

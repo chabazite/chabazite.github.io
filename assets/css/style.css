@@ -11129,10 +11129,16 @@ textarea.form-control-lg {
   font-family: "Roboto", sans-serif;
 }
 .display-2--description {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: none;
   display: block;
   margin-top: 1.2rem;
+}
+@media (min-width: 992px) {
+  .display-2--description {
+    font-size: 1.5rem;
+    display: inline-block;
+  }
 }
 
 .menu {
@@ -11152,6 +11158,14 @@ textarea.form-control-lg {
   padding: 10rem 0 0 0;
   width: 100%;
   height: 100%;
+}
+
+.intros .video-box {
+  position: relative;
+}
+.intros .video-box a span i {
+  font-size: 6rem;
+  color: #35BEAD;
 }
 
 /*# sourceMappingURL=style.css.map */

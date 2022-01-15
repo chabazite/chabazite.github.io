@@ -7,3 +7,20 @@
     width: 100%;
     height: 100%;
 }
+
+.intros {
+    .video-box{
+        position: relative;
+
+        a{
+            
+            span{
+
+                i{
+                    font-size: 6rem;
+                    color: $secondary;
+                }
+            }
+        }
+    }
+}
