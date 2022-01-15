@@ -1,139 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--required meta-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrew Ingalls | Data Scientist</title>
     
     <!--CS STYLE-->
-    <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
 <!--Navbar -->
-<nav>
-    <div class="home-box" id="homebox">
-    <h1> <a href="/index.html" class="nav-link">Andrew Ingalls</a></h1>
-    <h4>Data Scientist</h4>
+<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+     <a href="#" class="navbar-brand"><h1>Andrew Ingalls</h1>
+      <h4>Data Scientist</h4></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/Interests.html">Interests</a>
+          </li>          
+          <li class="nav-item">
+            <a  class="nav-link" href="html/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <ul class="navigation">
-         <li> <a href="html/about.html" class="nav-link"> About</a> </li>
-         <li> <a href="html/projects.html" class="nav-link"> Projects</a> </li>
-         <li> <a href="html/publications.html" class="nav-link"> Publications</a> </li>
-         <li> <a href="html/contact.html" class="nav-link"> Contact</a> </li>
-    </ul>
-</nav>
-<!--SideBar-->
-<section class="sidebar" id="sidebar">
-    <div class="author-contact">
-        <img 
-            src="images/headshot.jpg" 
-            title="Headshot" 
-            alt= "Andrew's headshot"
-        />
-        <h3> Andrew Ingalls </h3>
-        <p>Associate Scientist at Stowers, works in R and Python</p>
-        <a href="mailto:ingallsandrew0@gmail.com"
-            class= "author-social" target="_blank">
-            <i class="fa fa-envelope-square:"></i> Email
-        </a>
-        <a href="http://reddit.com/user/Andrew_Data" class="author-social" target="_blank">
-            <i class="fa fa-reddit-square"></i> Reddit
-        </a>
-        <a href="http://github.com/Chabazite" class="author-social" target="_blank">
-            <i class="fa fa-github"></i> Github
-        </a>
-        <a href="https://www.linkedin.com/in/andrew-ingalls-kansas-city/" 
-            class="author-social" target="_blank">
-            <i class="fa fa-LinkedIn"></i> LinkedIn
-        </a>
-    </div>
-    <div class="bio">
-        <h2 class= "bio-title">About Me</h2>
-        <p class="bio-text">
-            Andrew Ingalls is a detail-oriented and motivated scientist with proven track record of creative problem solving leading to quantitative improvement in daily operations.
-            His interests include bioinformatics, continue education, and carpentry. 
-            
-        </p>   
-    </div>
-</section>
+  </nav>
+
 
 <div class="main" id="main">
     <!--Hero Section-->
-    <!--More about -->
-    <section class="more-about">
-     <h2> More About Me</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-        autem deleniti cupiditate molestias quis unde quae totam porro dicta
-        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt 
-        </p>
-    </section>
-
-
-<!--Project Section -->
-    <section class="projects" id="projects">
-     <h2 class="projects-title"> Recent Projects Highlights </h2>
-        <div class="project-container">
-            <div class="project-container project-card">
-        <img
-            src="images/testing.jpg"
-            alt="Gape"
-            loading="lazy"
-            class="project-pic"
-            />
-            <h3 class="project-title">Gape Measurements</h3>
-            <p class="project-details">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati 
-            </p>
-            <a href="html/gape_meas.html" target="_blank" class="project-line"> Check it Out </a>
+<section id="home" class="intro-section">
+    <div class="container">
+        <div class="row align-items-center text-white">
+        <!--Start content for the intro-->    
+            <div class="col-md-6 intros">
+                <h1 class="display-2 lh-base">
+                    <span class="display-2--intro">Hey! I'm Andrew</span>
+                    <span class="class display-2--description">
+                        I'm a detail-oriented and motivated scientist with proven track record of creative problem solving leading to quantitative improvement in daily operations.
+                        My interests include data, continued education, boardgames, and carpentry. 
+                    </span>
+                </h1>
+                <button type="button" class="rounded-pill btn-rounded" href="mailto:ingallsandrew0@gmail.com">Email
+                    <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <button type="button" class="rounded-pill btn-rounded" href="http://github.com/Chabazite">GitHub
+                    <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <button type="button" class="rounded-pill btn-rounded" href="https://www.linkedin.com/in/andrew-ingalls-kansas-city/">LinkedIn
+                    <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <button type="button" class="rounded-pill btn-rounded">StackOverflow
+                    <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+                <button type="button" class="rounded-pill btn-rounded" href="http://reddit.com/user/Andrew_Data">Reddit
+                    <span><i class="fas fa-arrow-right"></i></span>
+                </button>
             </div>
-            <div class="project-container project-card">
-         <img
-             src="images/testing.jpg"
-             alt="Unitronix"
-             loading="lazy"
-             class="project-pic"
-             />
-             <h3 class="project-title">Unitronix Database Management</h3>
-             <p class="project-details">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-         nesciunt excepturi quos obcaecati 
-             </p>
-             <a href="html/unitronix.html" target="_blank" class="project-line"> Check it Out </a>
+        <!--Start content for the machine learning video-->
+            <div class="col-md-6 intros text-end">
+                <div class="class video-box">
+                    <img src="images\Coding _Monochromatic.png" alt="video illustration" class="img-fluid">
+                    <a href="#" class="position-absolute top-50 start-50 translate-middle">
+                        <span>
+                            <i class="fas fa-play-circle"></i>
+                        </span>
+                    </a>
+                </div>
             </div>
-            <div class="project-container project-card">
-          <img
-              src="images/testing.jpg"
-              alt="Rotifer"
-              loading="lazy"
-              class="project-pic"
-              />
-              <h3 class="project-title">Rotifer Classification Model</h3>
-              <p class="project-details">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nesciunt excepturi quos obcaecati 
-              </p>
-              <a href="html/rotifer.html" target="_blank" class="project-line"> Check it Out </a>
-             </div>
         </div>
-    </section>
-
+    </div>
+</section>
+<!--Visualization Section-->
+<section id="visualization" class="visualization">
+    <div class="container">
+        <div class="row text-center">
+            <h4 class="fw-bold lead mb-3">Data Visualization</h4>
+        </div>
+        <div class="projects_inner row grid" style=position:relative; height:15144.1px;></div>
+            <div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
+            <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" stlye="position: absolute; left: 0%; top: 0px;">
+                <div class="projects-item">
+                    <img src="images/headshot.jpg" alt="" class="img-fluid w-100">
+                    <div class="projects_text">
+                        <a href=""><h4>This is a title</h4></a>
+                        <p>(Made in RStudio, 2019)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" stlye="position: absolute; left: 0%; top: 0px;">
+                <div class="projects-item">
+                    <img src="images/headshot.jpg" alt="" class="img-fluid w-100">
+                    <div class="projects_text">
+                        <a href=""><h4>This is a title</h4></a>
+                        <p>(Made in RStudio, 2019)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" stlye="position: absolute; left: 0%; top: 0px;">
+                <div class="projects-item">
+                    <img src="images/headshot.jpg" alt="" class="img-fluid w-100">
+                    <div class="projects_text">
+                        <a href=""><h4>This is a title</h4></a>
+                        <p>(Made in RStudio, 2019)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" stlye="position: absolute; left: 0%; top: 0px;">
+                <div class="projects-item">
+                    <img src="images/headshot.jpg" alt="" class="img-fluid w-100">
+                    <div class="projects_text">
+                        <a href=""><h4>This is a title</h4></a>
+                        <p>(Made in RStudio, 2019)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" stlye="position: absolute; left: 0%; top: 0px;">
+                <div class="projects-item">
+                    <img src="images/headshot.jpg" alt="" class="img-fluid w-100">
+                    <div class="projects_text">
+                        <a href=""><h4>This is a title</h4></a>
+                        <p>(Made in RStudio, 2019)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" stlye="position: absolute; left: 0%; top: 0px;">
+                <div class="projects-item">
+                    <img src="images/headshot.jpg" alt="" class="img-fluid w-100">
+                    <div class="projects_text">
+                        <a href=""><h4>This is a title</h4></a>
+                        <p>(Made in RStudio, 2019)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" stlye="position: absolute; left: 0%; top: 0px;">
+                <div class="projects-item">
+                    <img src="images/headshot.jpg" alt="" class="img-fluid w-100">
+                    <div class="projects_text">
+                        <a href=""><h4>This is a title</h4></a>
+                        <p>(Made in RStudio, 2019)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-sm-12 viz grid-item" stlye="position: absolute; left: 0%; top: 0px;">
+                <div class="projects-item">
+                    <img src="images/headshot.jpg" alt="" class="img-fluid w-100">
+                    <div class="projects_text">
+                        <a href=""><h4>This is a title</h4></a>
+                        <p>(Made in RStudio, 2019)</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+<!--Project Section -->
+   
 <!--Certifiction Section -->
-    <section class ="certification" id= "certification">
-     <h2 class="certification-title"> Relevant Certifications</h2>
+    <section id= "certification" class ="certification">
+        <div class="container">
+            <div class="row text-center">
+                <h4 class="fw-bold lead mb-3">Relevant Certifications</h4>
+            </div>
+        </div>
     <div class="cert-container">
         <div class="cert-container cert-card">
             <img
@@ -141,9 +192,10 @@
                 alt="R Programming"
                 loading="lazy"
                 class="cert-pic"
+                style="max-width:100%;height:auto;"
                 />
                 <h3 class="cert-title">R Programming: Advanced Analytics in R for Data Science</h3>
-                <a href = "https://www.udemy.com/course/r-analytics/" target="_blank" class="cert-line"> 
+                <a href = "https://www.udemy.com/certificate/UC-27a5ed07-cfbe-4bc4-b297-edda1d66c445/" target="_blank" class="cert-line"> 
                     Check it Out</a>
            </div>
         <div class="cert-container cert-card">
@@ -152,9 +204,22 @@
                 alt="R Programming"
                 loading="lazy"
                 class="cert-pic"
+                style="max-width:100%;height:auto;"
                 />
                 <h3 class="cert-title">R Programming A-Z: R For Data Science</h3>
-                <a href = "https://www.udemy.com/course/r-programming/" target="_blank" class="cert-line"> 
+                <a href = "https://www.udemy.com/certificate/UC-da855033-3d70-4ee9-b575-f8cc36938cae/" target="_blank" class="cert-line"> 
+                    Check it Out</a>
+         </div>
+         <div class="cert-container cert-card">
+            <img
+                src="images/IBM_DATA_SCIENCE_CERTIFICATE.pdf"
+                alt="IBM Data Science"
+                loading="lazy"
+                class="cert-pic"
+                style="max-width:100%;height:auto;"
+                />
+                <h3 class="cert-title">IBM Data Science Professional Certificate</h3>
+                <a href = "https://www.coursera.org/account/accomplishments/specialization/certificate/62H2REFSD9K2" target="_blank" class="cert-line"> 
                     Check it Out</a>
          </div>
            
@@ -169,5 +234,53 @@
 
 <!--Ion Icon Scripts -->
 </div>
+<footer class="footer_area section_gap" id="contact-me">
+    <div class="container">
+        <div class="row footer_inner justify-content-center">
+            <div class="col-lg-6 text-center">
+                <aside class="f_widget social_widget">
+                    <div class="f_title">
+                        <h4>Contact Me</h4>
+                    </div>
+                    <ul class="list">
+                        <li>
+                            <a href="mailto:ingallsandrew0@gmail.com">
+                                <i class="fas fa-envelope-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/chabazite">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/users/17762277/andrew-ingalls">
+                                <i class="fab fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/andrew-ingalls-kansas-city/">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.reddit.com/user/Andrew_Data">
+                                <i class="fab fa-reddit" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+                <div class="copyright"></div>
+                <p>Copyright &copy;
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved 
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="/assets/js/bootstrap.bundle.js"></script>
+
 </body>
  </html>
