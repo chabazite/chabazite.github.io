@@ -56,24 +56,3 @@
     }
   }
 }
-
-.section_gap {
-    padding: 120px 0;
-    @media (max-width: 991px) {
-      padding: 80px 0;
-    }
-  }
-  
-  .section_gap_top {
-    padding-top: 120px;
-    @media (max-width: 991px) {
-      padding-top: 80px;
-    }
-  }
-  
-  .section_gap_bottom {
-    padding-bottom: 120px;
-    @media (max-width: 991px) {
-      padding-bottom: 80px;
-    }
-  }
