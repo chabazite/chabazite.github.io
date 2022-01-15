@@ -1,0 +1,54 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+//Footer Area CSS
+.footer_area{
+    @include gradient;
+}
+
+.footer_inner{
+
+}
+.social_widget{
+    .f_title{
+        h4{
+            font-size: 21px;
+            margin: 40px 0 20px;
+            color: #000;
+        }
+    }
+    p{
+        font-size: 14px;
+        line-height: 24px;
+        color: $black;
+        margin-bottom: 10px;
+    }
+    .list{
+        li{
+            margin-right: 40px;
+            display: inline-block;
+            a{
+                color:$secondary;
+                font-size: 36px;
+                @include transition;
+            }
+            &:last-child{
+                margin-right: 0px;
+            }
+            &:hover{
+                a{
+                    color:$primary;
+                }
+            }
+        }
+    }
+}
+.copyright{
+    margin-top: 40px;
+    p{
+        color:#000;
+        a{
+            color:$primary
+        }
+    }
+}

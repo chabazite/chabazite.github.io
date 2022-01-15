@@ -14,3 +14,11 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}

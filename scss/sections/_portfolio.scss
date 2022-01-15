@@ -1,0 +1,40 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.portfolio_details_are {
+
+}
+.portfolio_details_inner {
+    .row{
+        margin-bottom: 65px;
+        @media (max-width: 480px) {
+            margin-bottom: 30px;
+        }
+    }
+    p {
+        margin-bottom: 30px;
+        font-size: 14px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+    .portfolio_right_text {
+        margin-top: 50px;
+        @media (max-width:991px) {
+            margin-top: 0px;
+        }
+        @media (max-width: 576px) {
+            margin-top: 50px;
+        }
+        h4 {
+            color: $primary;
+            font-size: 21px;
+            margin-bottom: 18px;
+            font-weight: 700;
+        }
+        p {
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+    }
+}
