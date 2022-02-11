@@ -1,0 +1,113 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.timeline{
+    width: 85%;
+    position: relative;
+  }
+  .content{
+    background: #444;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+  }
+  .content h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .content p{
+    line-height: 1.4;
+    margin: 10px 0;
+  }
+  
+  .content a{
+    color: black;
+    background: white;
+    text-decoration:none;
+    padding: 10px 25px;
+    display: inline-block;
+  }
+  
+  .content a:hover{
+    background: crimson;
+    color: white;
+  }
+  .content .time{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
+  }
+  @media(min-width:700px){
+    .content{
+      width:50%;
+    }
+    .content:nth-child(odd){
+      float: left;
+      clear: both;
+      transform: translateX(-25px);
+    }
+    .content:nth-child(even){
+      float: right;
+      clear: both;
+      transform: translateX(25px);
+    }
+    .timeline::before{
+      content: "";
+      width: 1px;
+      height: 100%;
+      background: black;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .content::before{
+      content:"";
+      width: 16px;
+      height: 16px;
+      background: BLACK;
+      position: absolute;
+      top: 50%;
+      right: -32.5px;
+      border-radius: 50%;
+    }
+    .content:nth-child(even)::before{
+      left: -33.5px;
+    }
+    .content:hover::before{
+      background: crimson;
+    }
+    .content::after{
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: #444;
+      position: absolute;
+      top: 50%;
+      right: -8px;
+      transform: translateY(50%) rotate(45deg);
+    }
+    .content:nth-child(even)::after{
+      left: -8px;
+    }
+    .img-head{
+        width: 75%;
+        height: 75%;
+        border-radius: 20%;
+    }
+  }
+  
