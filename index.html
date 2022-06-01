@@ -22,7 +22,6 @@
   itemSelector: '.grid-item',
   // use element for option
   columnWidth: '.grid-sizer',
-  gutter:0,
   percentPosition: true
 });
 // layout Masonry after each image loads
@@ -117,9 +116,10 @@ $grid.imagesLoaded().progress( function() {
         </div>
         <div class="project_inner row grid" style="position: relative">
             <div class="grid-sizer col-sm-6 col-md-4 col-lg-6"></div>
+
             <div class="col-lg-6 col-sm-6 col-sm-12 viz grid-item">
                 <div class="projects_item">
-                    <img src="images/Visualizations/all_text-wordcloud.png" alt="" class="img-fluid w-100">
+                    <img  src="images/Visualizations/all_text-wordcloud.png" alt="" class="img-fluid">
                     <div class="projects_text">
                         <a href=""><h4>DnD Monster Wordcloud</h4>
                         </a>
@@ -127,9 +127,11 @@ $grid.imagesLoaded().progress( function() {
                     </div>
                 </div>
             </div>
+ 
+
             <div class="col-lg-6 col-sm-6 col-sm-12 viz grid-item">
                 <div class="projects_item">
-                    <img src="images/Visualizations/Sig_Mass.png" alt="" class="img-fluid w-100">
+                    <img src="images/Visualizations/Sig_Mass.png" alt="" class="img-fluid">
                     <div class="projects_text">
                         <a href=""><h4>Significance Testing: Mass</h4>
                         </a>
@@ -315,7 +317,8 @@ $grid.imagesLoaded().progress( function() {
         </div>
     </div>
 </footer>
-
+        <script src="../assets/js/modal.js">
+    </script>   
     <script src="../assets/js/imagesloaded.pkgd.js">
     </script>
     <script src="../assets/js/masonry.pkgd.js"></script>
