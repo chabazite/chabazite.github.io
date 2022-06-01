@@ -12,6 +12,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type = "text/javascript" language = "javascript">
+      $(document).ready(function() {   
+        $grid = $('.grid').masonry({
+   // set itemSelector so .grid-sizer is not used in layout
+   itemSelector: '.grid-item',
+  // use element for option
+  columnWidth: '.grid-sizer',
+  percentPosition: true
+});
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry('layout');
+});
+        });
+    </script>
 </head>
 <body>
 
@@ -52,9 +69,9 @@
 
 <section id="visualization" class="section_gap portfolio_area">
     <div class="container">
-      <div class="project_inner row grid" data-masonry='{ "itemSelector": ".grid-item" }' style="position: relative">
+      <div class="project_inner row grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }' style="position: relative">
         <div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
-              <div class="col-lg-3 col-sm-6 col-sm-12 grid-item" >
+              <div class="col-lg-3 col-sm-6 col-sm-12 grid-item"  >
                   <div class="projects_item">
                       <img src="../images/Interests/aquaponics.jpg" alt="" class="img-fluid w-100">
                       <div class="projects_text">
@@ -448,7 +465,7 @@
         </div>
     </div>
 </footer>
-    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"></script>
+    <script src="../assets/js/imagesloaded.pkgd.js"></script>
     <script src="../assets/js/masonry.pkgd.js"></script>
     <script src="../assets/js/bootstrap.bundle.js"></script>
 </body>
