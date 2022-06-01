@@ -22,7 +22,9 @@
   itemSelector: '.grid-item',
   // use element for option
   columnWidth: '.grid-sizer',
-  percentPosition: true
+  percentPosition: true,
+  gutter: 40,
+  fitWidth: true,
 });
 // layout Masonry after each image loads
 $grid.imagesLoaded().progress( function() {
@@ -35,7 +37,7 @@ $grid.imagesLoaded().progress( function() {
 
 <!--Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
-    <div class="container">
+    <!-- <div class="container"> -->
 
         <a href="../index.html" class="navbar-brand" >
             <img src="images\Coding _Monochromatic.png" alt="video illustration" height = '75' style="display: inline-block;">
