@@ -27,7 +27,7 @@
     left: 50%;
     bottom: 0px;
     @include transform(translateX(-50%));
-    text-align: center;
+    text-align: left;
     opacity: 0;
     visibility: hidden;
     @include transition();
